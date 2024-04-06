@@ -1,0 +1,79 @@
+{
+	"CORE": {
+		"0": {
+				"SPECIES": "The Demogorgon"
+			}
+		},
+	"MYTHIC": {
+		"0": {
+				"SPECIES": "Medusa",
+				"SHORT DESCRIPTION": "Formerly a beautiful woman, with snakes for hair, cat-like eyes, and tusks protruding from her mouth. One look and you will turn to stone.",
+				"LONG DESCRIPTION": "Like the Medusa of legend, Medusa have venomous snakes for hair. If one looks at a Medusa directly, it will turn them to stone. Medusa are cunning, deceptive, and possessive. Once they turn you to stone, there is no way to turn you back. Their blood is like poison, or acid. And one can always tell a Medusa is nearby by her connection of stone statues, most of which are undoutably her victims.",
+				"TYPE": "HUMANOID",
+				"SIZE": "MEDIUM",
+				"CHALLENGE RANGE": 3,
+				"ALIGNMENT": "CE",
+				"ENVIRON": null,
+				"ARMOR": [1, 20],
+				"HP": [8, 15],
+				"SENSES": ["DV"],
+				"SAVE PROFICENCIES": ["CONST"],
+				"SKILLS": ["STH", "DEC", "INT", "PSN"],
+				"LEGEND": true,
+				"LAIR": true,
+				"VULNERABILITY": [],
+				"RESISTANCE": [],
+				"IMMUNITY": [],
+				"COND. IMMUNITY": [],
+				"LANGUAGES": []
+			}
+		},
+	"POP CULTURE": {
+		"0": {
+				"SPECIES": "Weeping Angel",
+				"SHORT DESCRIPTION": "Living statue which chases adventureures when they are not looking.",
+				"LONG DESCRIPTION": "The Weeping Angel is a humanoid being from another plane, another world, entirely unlike our own. They appear like a female human, typically dressed in simple robes, with short hair and large, angelic wings sprouting from their back. Weeping Angels are typical, organic, fleshy beings when not being observed. However, the moment a sentient being lays eyes on one, the Weeping Angel turns to a stone facsimilie of it's original appearance. In this state, the Weeping Angel is aware of it's surroundings, yet cannot do anything at all about them. Due to this, Weeping Angels usually cover their face with their hands when around other members of their race, in order to protect the others from being permanently frozen by another's gaze. While this means that it is rather trivial to fend one off, simply keep an eye on it at all times, this does not mean that one can assume they are safe in the presence of a Weeping Angel. \n\n Weeping Angels are increadibly fast, aggressive, intelligent, and also posses magical powers. They are capable of moving around 2-3 feet (60 - 100 cm) in the literal blink of an eye. Hence the common advice of 'Don't blink' when dealing with Weeping Angels. Further, if one catches you, it either means certain death, or that you will be sent back in time a random number of years, likely never to be heard from again. \n\n Weeping Angels are pack hunters. While it is not unusual to find one alone, there are almost always more hidden just out of sight. If you find one, you have 3 options:\n\t1) **Run.** Keep your eyes on the angles and run as hard and as fast as you can to get away from them. Throw as much as you can between you and them: boulders, other enemies, steel doors, anything.\n\t2) **Fight.** Keep your eyes on the angels. Either trap them in another's gaze (or their own gaze in a reflection, as observing a Weeping Angel in a mirror, a scrying spell, through glass, or any other indirect method, still freezes the angel), or find a way to destroy them while they are in their stoney form.\n\t3) **Give Up.** Most people do not live to tell the tale of encountering a Weeping Angel. You likely won't either.\n\nIf you aren't giving up, then don't blink. Don't even blink. The angels are too strong and too fast to risk it. Their rock is too hard to be damaged by most swords or war hammers. It will take great cunning to destory a Weeping Angel. But be warned, they are very protective of each other. Kill one and the others are soon to attack with renewed ferocity. Keep an eye on your back, as they are not only fast, but sneaky. And remember: Don't blink. Because the angels are coming.",
+				"TYPE": "HUMANOID",
+				"SIZE": "MEDIUM",
+				"CHALLENGE RANGE": 8,
+				"ALIGNMENT": "CE",
+				"ENVIRON": null,
+				"ARMOR": [1, 20],
+				"HP": [20, 30],
+				"SENSES": [],
+				"SAVE PROFICENCIES": ["STR"],
+				"SKILLS": ["STH", "ATH", "DEC"],
+				"LEGEND": false,
+				"LAIR": true,
+				"VULNERABILITY": [],
+				"RESISTANCE": [],
+				"IMMUNITY": [],
+				"COND. IMMUNITY": [],
+				"LANGUAGES": []
+			}
+		},
+	"ETC": {
+			"0": {
+				"SPECIES": "Weeping Medusa",
+				"SHORT DESCRIPTION": "Formerly a beautiful woman, with snakes for hair, cat-like eyes, and tusks protruding from her mouth. One look and you will turn you into a creature hell bent on destroying your comrades.",
+				"LONG DESCRIPTION": "Like the Medusa of legend, Weeping Medusa have venomous snakes for hair. If one looks at a Medusa directly, it will turn them to stone. However, when turned to stone by a Weeping Medusa, you become not just a stone statue, but a Weeping Angel who serves the Medusa. Medusa are all cunning, deceptive, and possessive. But, Weeping Medusa are also self-rightous, vain, and self-centered. They also have a massive ego and superiority complex. Once they turn you to Weeping Angel, there is no way to turn you back. Their blood is like poison, or acid. And one can always tell a Medusa is nearby by her connection of stone statues, most of which are undoutably her victims.",
+				"TYPE": "HUMANOID",
+				"SIZE": "MEDIUM",
+				"CHALLENGE RANGE": 11,
+				"ALIGNMENT": "CE",
+				"ENVIRON": null,
+				"ARMOR": [1, 20],
+				"HP": [9, 18],
+				"SENSES": ["DV", "BS"],
+				"SAVE PROFICENCIES": ["CONST"],
+				"SKILLS": ["STH", "DEC", "INT", "PSN"],
+				"LEGEND": true,
+				"LAIR": true,
+				"VULNERABILITY": [],
+				"RESISTANCE": [],
+				"IMMUNITY": [],
+				"COND. IMMUNITY": [],
+				"LANGUAGES": []
+			}	
+		},
+}

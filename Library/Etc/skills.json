@@ -1,0 +1,20 @@
+{
+	"ATH": "Athletics",
+	"ACR": "Acrobatics",
+	"SOH": "Sleight of Hand",
+	"STH": "Stelth",
+	"ARC": "Arcana",
+	"HIS": "History",
+	"INV": "Investigation",
+	"NAT": "Nature",
+	"REL": "Religion",
+	"ANH": "Animal Handling",
+	"INS": "Insight",
+	"MED": "Medicine",
+	"PER": "Perception",
+	"SUR": "Survival",
+	"DEC": "Deception",
+	"INT": "Intimidation",
+	"PRF": "Performance",
+	"PSN": "Persuasion"
+}
