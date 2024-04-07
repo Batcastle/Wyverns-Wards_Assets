@@ -1,7 +1,26 @@
 {
 	"CORE": {
 		"0": {
-				"SPECIES": "The Demogorgon"
+				"SPECIES": "The Demogorgon",
+				"SHORT DESCRIPTION": "Lord of All Demons, Master of the Spiraling Depths.",
+				"LONG DESCRIPTION": "Demogorgon is a demon lord character in the Dungeons and Dragons game and is one of the most powerful demons that has existed in the game (so far). He is also known as the Master of the Spiraling Depths or the Prince of Demons. He lairs in the abyssal realm Abysm (the 88th layer of the Infinite Layers Of The Abyss.), which is also known as the Gaping Maw. Demogorgon appears as a humanoid figure with a baboon-like upper body, tentacle-arms, and saurian legs. Atop his shoulders rest two heads, and they are both mad. His goal is to destroy everything in the universe.",
+				"TYPE": "GIANT",
+				"SIZE": "LARGE",
+				"CHALLENGE RANGE": 26,
+				"ALIGNMENT": "CE",
+				"ENVIRON": {"Plane": "Abyssal"},
+				"ARMOR": [22, 22],
+				"HP": [288, 640],
+				"SENSES": ["TS", "PP"],
+				"SAVE PROFICENCIES": ["DEX", "CONST", "WIS", "CHAR"],
+				"SKILLS": ["INS", "PER"],
+				"LEGEND": true,
+				"LAIR": true,
+				"VULNDERABILITY": [],
+				"RESISTANCE": ["COL", "FIR", "LIT"],
+				"IMMUNITY": ["POI", "BNM", "PNM", "SNM"],
+				"COND. IMMUNITY": ["CHA", "EXH", "FRI", "POI"],
+				"LANGUAGES": ["*"]
 			}
 		},
 	"MYTHIC": {
@@ -75,5 +94,5 @@
 				"COND. IMMUNITY": [],
 				"LANGUAGES": []
 			}	
-		},
+		}
 }

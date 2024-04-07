@@ -1,0 +1,12 @@
+{
+	"POI": "poison",
+	"COL": "cold/frost",
+	"FIR": "fire/heat",
+	"LIT": "lightening",
+	"BLU": "bludgeoning (magical)",
+	"BNM": "bludgeoning (non magical)",
+	"PIR": "piercing (magical)",
+	"PNM": "piercing (non magical",
+	"SLA": "slashing (magical)",
+	"SNM": "slashing (non magical)"
+}

@@ -2,5 +2,6 @@
 	"DV": "DarkVision",
 	"BS": "BlindSight",
 	"TS": "TrueSight",
-	"SS": "SeismicSense"
+	"SS": "SeismicSense",
+	"PP": "PassivePerception"
 }
