@@ -1,3 +1,63 @@
 {
-
+	"0": {
+			"NAME": "Human",
+			"PRONOUNS": {
+				"GENERAL": {
+					"SINGULAR": "Human",
+					"PLURAL": "Humans"
+				},
+				"FEMALE": {
+					"SINGULAR": "She",
+					"PLURAL": "They"
+				},
+				"MALE": {
+					"SINGULAR": "He",
+					"PLURAL": "They"
+				}
+			},
+			"SORT DESCRIPTION": "Basic Human",
+			"LONG DESCRIPTION": "In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
+			"SIZE": "Medium",
+			"SPEED": "30",
+			"LANGUAGES": {
+				"PRE_KNOWN": ["Common"],
+				"EXTRA": 1
+			},
+			"ABILITIES": [],
+			"VARIANTS": {
+				"Calishite": {},
+				"Chondathan": {},
+				"Damaran": {},
+				"Illuskan": {},
+				"Mulan": {},
+				"Rashemi": {},
+				"Shou": {},
+				"Tethyrian": {},
+				"Turami": {}
+			}
+		},
+	"1": {
+		"NAME": "Elves"
+	},
+	"2": {
+		"NAME": "Dwarves"
+	},
+	"3": {
+		"NAME": "Dragonborn"
+	},
+	"4": {
+		"NAME": "Tieflings"
+	},
+	"5": {
+		"NAME": "Half-Elfs"
+	},
+	"6": {
+		"NAME": "Druids"
+	},
+	"7": {
+		"NAME": "Tabaxi"
+	},
+	"8": {
+		"NAME": "Gnomes"
+	}
 }

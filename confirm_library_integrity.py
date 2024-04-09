@@ -65,4 +65,7 @@ def scan_files(directory):
             status = scan_files(directory + each)
     return status
 
-scan_files("Library")
+if scan_files("Library"):
+    __eprint__("Errors found!")
+    exit(1)
+print("No Errors found. Library has good integrity.")
