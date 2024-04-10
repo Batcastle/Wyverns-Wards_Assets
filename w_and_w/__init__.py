@@ -24,6 +24,5 @@
 """Explain what this program does here!!!"""
 from w_and_w.dice import roll as dice_roll
 import w_and_w.rules as rules
-
-del dice
+import w_and_w.names as names
 

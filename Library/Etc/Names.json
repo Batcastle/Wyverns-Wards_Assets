@@ -1,0 +1,65 @@
+{
+	"FIRST": {
+		"MALE": [
+			"Aerongil",
+			"Bardtholomew",
+			"Gary",
+			"Jamal",
+			"Ovir",
+			"Garzoc",
+			"Bren",
+			"Ran",
+			"Ebrof",
+			"Shin",
+			"Harry",
+			"Gonden",
+			"Rae",
+			"Finn",
+			"Shnoff",
+			"Eric",
+			"David",
+			"Grok",
+			"Zeks",
+			"Oak",
+			"Artok",
+			"Chase"
+		],
+		"FEMALE": [
+			"Raya",
+			"Jennifer",
+			"Tally",
+			"Noel",
+			"Furiosa",
+			"Asuna",
+			"Rachel",
+			"Maple",
+			"Fern",
+			"Rose",
+			"Rosaline",
+			"Rosalia",
+			"Yessenia",
+			"Flora",
+			"Fauna",
+			"Syndra"
+		],
+		"NEUTRAL": [
+			"Sam",
+			"Logan",
+			"Soar",
+			"Eloquent",
+			"Oli"
+		]
+	},
+	"LAST": [
+		"Hrothgar",
+		"Ericson",
+		"Hager",
+		"Horison",
+		"Cerris",
+		"Tempest",
+		"Smith",
+		"Jones",
+		"Jupp",
+		"Chase"
+	]
+}
