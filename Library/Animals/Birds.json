@@ -1,3 +1,56 @@
 {
-
+	"0": {
+		"NAME": "Hawk",
+		"HP": [1, 4],
+		"DAMAGE_IMMUNITY": ["FAL"],
+		"DAMAGE_RESISTANCE": ["PNM", "SNM"],
+		"CONDITION_IMMUNITY": [],
+		"DROPS": [1, 19, 20],
+		"SIZE": "SMALL"
+	},
+	"1": {
+		"NAME": "Crow",
+		"HP": [1, 3],
+		"DAMAGE_IMMUNITY": ["FAL"],
+		"DAMAGE_RESISTANCE": ["PNM", "SNM"],
+		"CONDITION_IMMUNITY": [],
+		"DROPS": [1, 19, 20],
+		"SIZE": "SMALL"
+	},
+	"2": {
+		"NAME": "Sparrow",
+		"HP": [1, 3],
+		"DAMAGE_IMMUNITY": ["FAL"],
+		"DAMAGE_RESISTANCE": ["PNM", "SNM"],
+		"CONDITION_IMMUNITY": [],
+		"DROPS": [1, 19, 20],
+		"SIZE": "SMALL"
+	},
+	"3": {
+		"NAME": "Eagle",
+		"HP": [2, 4],
+		"DAMAGE_IMMUNITY": ["FAL"],
+		"DAMAGE_RESISTANCE": ["PNM", "SNM"],
+		"CONDITION_IMMUNITY": [],
+		"DROPS": [1, 19, 20],
+		"SIZE": "SMALL"
+	},
+	"4": {
+		"NAME": "Starling",
+		"HP": [1, 2],
+		"DAMAGE_IMMUNITY": ["FAL"],
+		"DAMAGE_RESISTANCE": ["PNM", "SNM"],
+		"CONDITION_IMMUNITY": [],
+		"DROPS": [1, 19, 20],
+		"SIZE": "SMALL"
+	},
+	"5": {
+		"NAME": "Hummingbird",
+		"HP": [1, 1],
+		"DAMAGE_IMMUNITY": ["FAL"],
+		"DAMAGE_RESISTANCE": [],
+		"CONDITION_IMMUNITY": [],
+		"DROPS": [],
+		"SIZE": "SMALL"
+	}
 }

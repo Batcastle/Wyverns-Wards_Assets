@@ -5,7 +5,8 @@
 		"DAMAGE_IMMUNITY": ["FAL"],
 		"DAMAGE_RESISTANCE": ["COL", "LIT", "PNM"],
 		"CONDITION_IMMUNITY": [],
-		"DROPS": [0, 1]
+		"DROPS": [0, 1],
+		"SIZE": "SMALL"
 	},
 	"1": {
 		"NAME": "Bear",
@@ -13,6 +14,25 @@
 		"DAMAGE_IMMUNITY": ["COL", "BNM"],
 		"DAMAGE_RESISTANCE": ["LIT", "PNM", "SNM"],
 		"CONDITION_IMMUNITY": ["POI", "CHA"],
-		"DROPS": [3, 4, 16]
+		"DROPS": [3, 4, 16],
+		"SIZE": "LARGE"
+	},
+	"2": {
+		"NAME": "Fox",
+		"HP": [5, 8],
+		"DAMAGE_IMMUNITY": ["COL"],
+		"DAMAGE_RESISTANCE": ["LIT"],
+		"CONDITION_IMMUNITY": ["CHA"],
+		"DROPS": [1, 0, 19],
+		"SIZE": "SMALL"
+	},
+	"3": {
+		"NAME": "Wolf",
+		"HP": [7, 15],
+		"DAMAGE_IMMUNITY": ["COL"],
+		"DAMAGE_RESISTANCE": ["SNM"],
+		"CONDITION_IMMUNITY": [],
+		"DROPS": [3, 2, 19],
+		"SIZE": "MEDIUM"
 	}
 }

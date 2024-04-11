@@ -129,5 +129,15 @@
 		"NAME": "Bones (gargantuan)",
 		"WEIGHT": 8,
 		"TYPE": ["Crafting"]
+	},
+	"19": {
+		"NAME": "Claws",
+		"WEIGHT": 0.1,
+		"TYPE": ["Crafting"]
+	},
+	"20": {
+		"NAME": "Feathers",
+		"WEIGHT": 0.1,
+		"TYPE": ["Crafting"]
 	}
 }
