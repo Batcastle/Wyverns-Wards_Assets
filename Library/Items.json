@@ -1,3 +1,133 @@
 {
-
+	"0": {
+		"NAME": "Pelt (small)",
+		"TYPE": ["Crafting"],
+		"WEIGHT": 0.5
+	},
+	"1": {
+		"NAME": "Meat (small) (raw)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [-2, 2],
+		"WEIGHT": 1
+	},
+	"2": {
+		"NAME": "Pelt (medium)",
+		"TYPE": ["Crafting", "Clothing"],
+		"WEIGHT": 1,
+		"ARMOR": 1,
+		"MAGICAL": false,
+		"DAMAGE_RESISTANCE": ["COL", "BNM", "PNM", "SNM"],
+		"DAMAGE_IMMUNITY": []
+	},
+	"3": {
+		"NAME": "Meat (medium) (raw)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [-2, 2],
+		"WEIGHT": 2
+	},
+	"4": {
+		"NAME": "Pelt (large)",
+		"TYPE": ["Crafting", "Clothing"],
+		"WEIGHT": 2,
+		"ARMOR": 2,
+		"MAGICAL": false,
+		"DAMAGE_RESISTANCE": ["COL", "BNM", "PNM", "SNM"],
+		"DAMAGE_IMMUNITY": []
+	},
+	"5": {
+		"NAME": "Meat (large) (raw)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [-3, 3],
+		"WEIGHT": 4
+	},
+	"6": {
+		"NAME": "Pelt (huge)",
+		"TYPE": ["Crafting", "Clothing"],
+		"WEIGHT": 4,
+		"ARMOR": 3,
+		"MAGICAL": false,
+		"DAMAGE_RESISTANCE": ["COL", "BNM", "PNM", "SNM"],
+		"DAMAGE_IMMUNITY": []
+	},
+	"7": {
+		"NAME": "Meat (huge) (raw)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [-4, 3],
+		"WEIGHT": 6
+	},
+	"8": {
+		"NAME": "Pelt (gargantuan)",
+		"TYPE": ["Crafting", "Clothing"],
+		"WEIGHT": 10,
+		"ARMOR": 5,
+		"MAGICAL": false,
+		"DAMAGE_RESISTANCE": ["COL", "BNM", "PNM", "SNM"],
+		"DAMAGE_IMMUNITY": []
+	},
+	"9": {
+		"NAME": "Meat (gargantuan) (raw)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [-6, 1],
+		"WEIGHT": 10
+	},
+	"10": {
+		"NAME": "Meat (small) (cooked)",
+		"TYPE": ["Food"],
+		"COOKED": true,
+		"HP": [1, 4],
+		"WEIGHT": 0.75
+	},
+	"11": {
+		"NAME": "Meat (medium) (cooked)",
+		"TYPE": ["Food"],
+		"COOKED": true,
+		"HP": [2, 6],
+		"WEIGHT": 1.75
+	},
+	"12": {
+		"NAME": "Meat (large) (cooked)",
+		"TYPE": ["Food"],
+		"COOKED": true,
+		"HP": [4, 8],
+		"WEIGHT": 3.5
+	},
+	"13": {
+		"NAME": "Meat (huge) (cooked)",
+		"TYPE": ["Food"],
+		"COOKED": true,
+		"HP": [6, 10],
+		"WEIGHT": 5
+	},
+	"14": {
+		"NAME": "Meat (gargantuan) (cooked)",
+		"TYPE": ["Food"],
+		"COOKED": true,
+		"HP": [9, 15],
+		"WEIGHT": 8
+	},
+	"15": {
+		"NAME": "Bones (medium)",
+		"WEIGHT": 2,
+		"TYPE": ["Crafting"]
+	},
+	"16": {
+		"NAME": "Bones (large)",
+		"WEIGHT": 4,
+		"TYPE": ["Crafting"]
+	},
+	"17": {
+		"NAME": "Bones (huge)",
+		"WEIGHT": 6,
+		"TYPE": ["Crafting"]
+	},
+	"18": {
+		"NAME": "Bones (gargantuan)",
+		"WEIGHT": 8,
+		"TYPE": ["Crafting"]
+	}
 }

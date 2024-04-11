@@ -8,5 +8,6 @@
 	"PIR": "piercing (magical)",
 	"PNM": "piercing (non magical",
 	"SLA": "slashing (magical)",
-	"SNM": "slashing (non magical)"
+	"SNM": "slashing (non magical)",
+	"FAL": "Fall Damage"
 }
