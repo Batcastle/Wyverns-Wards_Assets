@@ -44,6 +44,7 @@ ARGC = len(sys.argv)
 def scan_files(directory):
     FILES = os.listdir(directory)
     status = False
+    library = {}
     if directory[-1] != "/":
         directory = directory + "/"
     for each in FILES:
@@ -61,11 +62,25 @@ def scan_files(directory):
                 __eprint__(f"{path} must contain a dict, not {type(data)}")
                 status = True
                 continue
+            library = dict(library, **data)
         elif os.path.isdir(directory + each):
-            status = scan_files(directory + each)
-    return status
+            recurse = scan_files(directory + each)
+            status = recurse[0]
+            library = dict(library, **recurse[1])
+    return [status, library]
 
-if scan_files("Library"):
+status = scan_files("Library")
+if status[0]:
     __eprint__("Errors found!")
     exit(1)
 print("No Errors found. Library has good integrity.")
+size = sys.getsizeof(status[1])
+unit = "bytes"
+units = ["KiB", "MiB", "GiB", "TiB"]
+count = 0
+while (size / 1024) >= 1:
+    size = size / 1024
+    unit = units[count]
+    count += 1
+
+print(f"Size of library in memory: { size } { unit }")
