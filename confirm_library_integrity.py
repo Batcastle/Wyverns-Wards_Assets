@@ -39,6 +39,8 @@ if sys.version_info[0] == 2:
 
 # get length of argv
 ARGC = len(sys.argv)
+with open("settings.json", "r") as file:
+    settings = json.load(file)
 
 
 def scan_files(directory):
@@ -71,7 +73,7 @@ def scan_files(directory):
             library = dict(library, **recurse[1])
     return [status, library]
 
-status = scan_files("Library")
+status = scan_files(settings["lib_location"])
 if status[0]:
     __eprint__("Errors found!")
     exit(1)

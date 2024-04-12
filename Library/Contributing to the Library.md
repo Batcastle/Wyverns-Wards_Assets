@@ -1,6 +1,6 @@
 # Contributing to the Library
 
-All files in the library are in JSON format, unless they are in the __media__ folder. In which case, the following file formats are used for the following data:
+All files in the library are in JSON format, unless they are in the __Assets__ folder. In which case, the following file formats are used for the following data:
 
  - Video: MP4 or WEBM
  - Image: PNG or WEBP
