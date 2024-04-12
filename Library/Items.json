@@ -139,5 +139,75 @@
 		"NAME": "Feathers",
 		"WEIGHT": 0.1,
 		"TYPE": ["Crafting"]
+	},
+	"21": {
+		"NAME": "Meat (small) (raw) (fish)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [-1, 2],
+		"WEIGHT": 1
+	},
+	"22": {
+		"NAME": "Meat (medium) (raw) (fish)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [-1, 3],
+		"WEIGHT": 2
+	},
+	"23": {
+		"NAME": "Meat (large) (raw) (fish)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [-3, 4],
+		"WEIGHT": 4
+	},
+	"24": {
+		"NAME": "Meat (huge) (raw) (fish)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [-4, 2],
+		"WEIGHT": 6
+	},
+	"25": {
+		"NAME": "Meat (gargantuan) (raw) (fish)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [-6, 1],
+		"WEIGHT": 10
+	},
+	"26": {
+		"NAME": "Meat (small) (cooked) (fish)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [1, 4],
+		"WEIGHT": 0.9
+	},
+	"27": {
+		"NAME": "Meat (medium) (cooked) (fish)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [2, 6],
+		"WEIGHT": 1.9
+	},
+	"28": {
+		"NAME": "Meat (large) (cooked) (fish)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [4, 8],
+		"WEIGHT": 3.75
+	},
+	"29": {
+		"NAME": "Meat (huge) (cooked) (fish)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [6, 10],
+		"WEIGHT": 5.75
+	},
+	"30": {
+		"NAME": "Meat (gargantuan) (cooked) (fish)",
+		"TYPE": ["Food"],
+		"COOKED": false,
+		"HP": [9, 15],
+		"WEIGHT": 9.5
 	}
 }

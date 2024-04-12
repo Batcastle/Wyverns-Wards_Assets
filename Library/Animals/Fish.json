@@ -1,3 +1,65 @@
 {
-
+	"0": {
+		"NAME": "Bass",
+		"HP": [2, 3],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": ["CHA"],
+		"DROPS": [21],
+		"SIZE": "SMALL"
+	},
+	"1": {
+		"NAME": "Trout",
+		"HP": [2, 3],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": ["CHA"],
+		"DROPS": [21],
+		"SIZE": "SMALL"
+	},
+	"2": {
+		"NAME": "Catfish",
+		"HP": [2, 3],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL", "POI"],
+		"CONDITION_IMMUNITY": ["CHA", "POI"],
+		"DROPS": [21],
+		"SIZE": "SMALL"
+	},
+	"3": {
+		"NAME": "Koi",
+		"HP": [2, 3],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": ["CHA"],
+		"DROPS": [21],
+		"SIZE": "SMALL"
+	},
+	"4": {
+		"NAME": "Great White",
+		"HP": [4, 8],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": [],
+		"DROPS": [23],
+		"SIZE": "LARGE"
+	},
+	"5": {
+		"NAME": "Tiger Shark",
+		"HP": [4, 8],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": [],
+		"DROPS": [23],
+		"SIZE": "LARGE"
+	}, 
+	"6": {
+		"NAME": "Nurse Shark",
+		"HP": [4, 8],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": [],
+		"DROPS": [23],
+		"SIZE": "LARGE"
+	}
 }

@@ -49,6 +49,8 @@ def scan_files(directory):
         directory = directory + "/"
     for each in FILES:
         if os.path.isfile(directory + each):
+            if each.split(".")[-1].upper() != "JSON":
+                continue
             path = directory + each
             try:
                 with open(path, "r") as file:
