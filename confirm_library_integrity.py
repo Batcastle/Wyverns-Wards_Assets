@@ -26,6 +26,12 @@ from __future__ import print_function
 import sys
 import json
 import os
+from itertools import chain
+from collections import deque
+try:
+    from reprlib import repr
+except ImportError:
+    pass
 
 
 def __eprint__(*args, **kwargs):
@@ -41,6 +47,46 @@ if sys.version_info[0] == 2:
 ARGC = len(sys.argv)
 with open("settings.json", "r") as file:
     settings = json.load(file)
+    
+def total_size(o, handlers={}, verbose=False):
+    """ Returns the approximate memory footprint an object and all of its contents.
+
+    Automatically finds the contents of the following builtin containers and
+    their subclasses:  tuple, list, deque, dict, set and frozenset.
+    To search other containers, add handlers to iterate over their contents:
+
+        handlers = {SomeContainerClass: iter,
+                    OtherContainerClass: OtherContainerClass.get_elements}
+
+    """
+    dict_handler = lambda d: chain.from_iterable(d.items())
+    all_handlers = {tuple: iter,
+                    list: iter,
+                    deque: iter,
+                    dict: dict_handler,
+                    set: iter,
+                    frozenset: iter,
+                   }
+    all_handlers.update(handlers)     # user handlers take precedence
+    seen = set()                      # track which object id's have already been seen
+    default_size = sys.getsizeof(0)       # estimate sizeof object without __sizeof__
+
+    def sizeof(o):
+        if id(o) in seen:       # do not double count the same object
+            return 0
+        seen.add(id(o))
+        s = sys.getsizeof(o, default_size)
+
+        if verbose:
+            print(s, type(o), repr(o), file=stderr)
+
+        for typ, handler in all_handlers.items():
+            if isinstance(o, typ):
+                s += sum(map(sizeof, handler(o)))
+                break
+        return s
+
+    return sizeof(o)
 
 
 def scan_files(directory):
@@ -66,6 +112,7 @@ def scan_files(directory):
                 __eprint__(f"{path} must contain a dict, not {type(data)}")
                 status = True
                 continue
+            data = {path.split("/")[-1].split(".")[0]: data}
             library = dict(library, **data)
         elif os.path.isdir(directory + each):
             recurse = scan_files(directory + each)
@@ -78,7 +125,7 @@ if status[0]:
     __eprint__("Errors found!")
     exit(1)
 print("No Errors found. Library has good integrity.")
-size = sys.getsizeof(status[1])
+size = total_size(status[1])
 unit = "bytes"
 units = ["KiB", "MiB", "GiB", "TiB"]
 count = 0
