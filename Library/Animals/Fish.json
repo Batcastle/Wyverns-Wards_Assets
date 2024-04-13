@@ -61,5 +61,50 @@
 		"CONDITION_IMMUNITY": [],
 		"DROPS": [23],
 		"SIZE": "LARGE"
+	},
+	"7": {
+		"NAME": "Carp",
+		"HP": [2, 3],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": ["CHA"],
+		"DROPS": [21],
+		"SIZE": "SMALL"
+	},
+	"8": {
+		"NAME": "Electric Eel",
+		"HP": [4, 5],
+		"DAMAGE_IMMUNITY": ["LIT"],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": ["CHA"],
+		"DROPS": [22],
+		"SIZE": "MEDIUM"
+	},
+	"9": {
+		"NAME": "Eel",
+		"HP": [3, 4],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": ["CHA"],
+		"DROPS": [22],
+		"SIZE": "MEDIUM"
+	},
+	"10": {
+		"NAME": "Tuna",
+		"HP": [3, 4],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": ["CHA"],
+		"DROPS": [22],
+		"SIZE": "MEDIUM"
+	},
+	"11": {
+		"NAME": "Guppy",
+		"HP": [1, 2],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["COL"],
+		"CONDITION_IMMUNITY": ["CHA"],
+		"DROPS": [21],
+		"SIZE": "SMALL"
 	}
 }
