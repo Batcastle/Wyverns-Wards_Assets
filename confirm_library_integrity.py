@@ -134,4 +134,4 @@ while (size / 1024) >= 1:
     unit = units[count]
     count += 1
 
-print(f"Size of library in memory: { size } { unit }")
+print(f"Size of library in memory: { '{:.1f}'.format(size) } { unit }")
