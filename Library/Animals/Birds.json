@@ -5,6 +5,7 @@
 		"DAMAGE_IMMUNITY": ["FAL"],
 		"DAMAGE_RESISTANCE": ["PNM", "SNM"],
 		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "BNM", "BLU"],
 		"DROPS": [1, 19, 20],
 		"SIZE": "SMALL"
 	},
@@ -14,6 +15,7 @@
 		"DAMAGE_IMMUNITY": ["FAL"],
 		"DAMAGE_RESISTANCE": ["PNM", "SNM"],
 		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "BNM", "BLU"],
 		"DROPS": [1, 19, 20],
 		"SIZE": "SMALL"
 	},
@@ -23,6 +25,7 @@
 		"DAMAGE_IMMUNITY": ["FAL"],
 		"DAMAGE_RESISTANCE": ["PNM", "SNM"],
 		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "BNM", "BLU"],
 		"DROPS": [1, 19, 20],
 		"SIZE": "SMALL"
 	},
@@ -32,6 +35,7 @@
 		"DAMAGE_IMMUNITY": ["FAL"],
 		"DAMAGE_RESISTANCE": ["PNM", "SNM"],
 		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "BNM", "BLU"],
 		"DROPS": [1, 19, 20],
 		"SIZE": "SMALL"
 	},
@@ -41,6 +45,7 @@
 		"DAMAGE_IMMUNITY": ["FAL"],
 		"DAMAGE_RESISTANCE": ["PNM", "SNM"],
 		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "BNM", "BLU"],
 		"DROPS": [1, 19, 20],
 		"SIZE": "SMALL"
 	},
@@ -50,6 +55,7 @@
 		"DAMAGE_IMMUNITY": ["FAL"],
 		"DAMAGE_RESISTANCE": [],
 		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "BNM", "BLU"],
 		"DROPS": [],
 		"SIZE": "SMALL"
 	}

@@ -1,3 +1,112 @@
 {
-
+	"0": {
+		"NAME": "Gecko",
+		"HP": [1, 2],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["SNM"],
+		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["COL", "FIR"],
+		"DROPS": [1],
+		"SIZE": "SMALL"
+	},
+	"1": {
+		"NAME": "Monitor Lizard",
+		"HP": [2, 3],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["SNM"],
+		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "FIR", "COL"],
+		"DROPS": [1],
+		"SIZE": "SMALL"
+	},
+	"2": {
+		"NAME": "Horned Lizard",
+		"HP": [2, 3],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["SNM"],
+		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "FIR", "COL"],
+		"DROPS": [1],
+		"SIZE": "SMALL"
+	},
+	"3": {
+		"NAME": "Black Rat Snake",
+		"HP": [4, 6],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["SNM", "POI"],
+		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "FIR", "COL"],
+		"DROPS": [1, 0],
+		"SIZE": "SMALL"
+	},
+	"4": {
+		"NAME": "Black Racer Snake",
+		"HP": [4, 6],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["SNM", "POI"],
+		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "FIR", "COL"],
+		"DROPS": [1, 0],
+		"SIZE": "SMALL"
+	},
+	"5": {
+		"NAME": "King Snake",
+		"HP": [4, 6],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["SNM", "POI"],
+		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "FIR", "COL"],
+		"DROPS": [1, 0],
+		"SIZE": "SMALL"
+	},
+	"6": {
+		"NAME": "Coral Snake",
+		"HP": [5, 7],
+		"DAMAGE_IMMUNITY": ["POI"],
+		"DAMAGE_RESISTANCE": ["SNM"],
+		"CONDITION_IMMUNITY": ["POI"],
+		"VULNERABILITIES": ["LIT", "FIR", "COL"],
+		"DROPS": [1, 0, 32, 31],
+		"SIZE": "SMALL"
+	},
+	"7": {
+		"NAME": "Python",
+		"HP": [7, 9],
+		"DAMAGE_IMMUNITY": [],
+		"DAMAGE_RESISTANCE": ["SNM", "PNM", "BNM"],
+		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["LIT", "FIR", "COL"],
+		"DROPS": [4, 5],
+		"SIZE": "LARGE"
+	},
+	"8": {
+		"NAME": "Cobra",
+		"HP": [4, 6],
+		"DAMAGE_IMMUNITY": ["POI"],
+		"DAMAGE_RESISTANCE": ["SLM"],
+		"CONDITION_IMMUNITY": ["POI"],
+		"VULNERABILITIES": ["LIT", "FIR", "COL"],
+		"DROPS": [4, 5, 32, 31],
+		"SIZE": "SMALL"
+	},
+	"9": {
+		"NAME": "Commodo Dragon",
+		"HP": [8, 10],
+		"DAMAGE_IMMUNITY": ["POI"],
+		"DAMAGE_RESISTANCE": ["SLM", "PNM", "BNM"],
+		"CONDITION_IMMUNITY": ["POI"],
+		"VULNERABILITIES": ["LIT", "FIR", "COL"],
+		"DROPS": [4, 5, 31],
+		"SIZE": "LARGE"
+	},
+	"10": {
+		"NAME": "Black Mamba",
+		"HP": [5, 7],
+		"DAMAGE_IMMUNITY": ["POI"],
+		"DAMAGE_RESISTANCE": ["SLM"],
+		"CONDITION_IMMUNITY": ["POI"],
+		"VULNERABILITIES": ["LIT", "FIR", "COL"],
+		"DROPS": [1, 0, 31, 32],
+		"SIZE": "SMALL"
+	}
 }

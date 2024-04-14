@@ -209,5 +209,15 @@
 		"COOKED": false,
 		"HP": [9, 15],
 		"WEIGHT": 9.5
+	},
+	"31": {
+		"NAME": "Venom Glands",
+		"TYPE": ["Crafting"],
+		"WEIGHT": 0.1
+	},
+	"32": {
+		"NAME": "Snake Fangs",
+		"TYPE": ["Crafting"],
+		"WEIGHT": 0.1
 	}
 }

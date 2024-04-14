@@ -4,6 +4,7 @@
 		"HP": [1, 3],
 		"DAMAGE_IMMUNITY": ["FAL"],
 		"DAMAGE_RESISTANCE": ["COL", "LIT", "PNM"],
+		"VULNERABILITIES": ["POI"], 
 		"CONDITION_IMMUNITY": [],
 		"DROPS": [0, 1],
 		"SIZE": "SMALL"
@@ -14,6 +15,7 @@
 		"DAMAGE_IMMUNITY": ["COL", "BNM"],
 		"DAMAGE_RESISTANCE": ["LIT", "PNM", "SNM"],
 		"CONDITION_IMMUNITY": ["POI", "CHA"],
+		"VULNERABILITIES": ["FIR"],
 		"DROPS": [3, 4, 16],
 		"SIZE": "LARGE"
 	},
@@ -23,6 +25,7 @@
 		"DAMAGE_IMMUNITY": ["COL"],
 		"DAMAGE_RESISTANCE": ["LIT"],
 		"CONDITION_IMMUNITY": ["CHA"],
+		"VULNERABILITIES": ["FIR"],
 		"DROPS": [1, 0, 19],
 		"SIZE": "SMALL"
 	},
@@ -32,6 +35,7 @@
 		"DAMAGE_IMMUNITY": ["COL"],
 		"DAMAGE_RESISTANCE": ["SNM"],
 		"CONDITION_IMMUNITY": [],
+		"VULNERABILITIES": ["FIR"],
 		"DROPS": [3, 2, 19],
 		"SIZE": "MEDIUM"
 	}
