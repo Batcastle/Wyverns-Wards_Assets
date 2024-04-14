@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-#  confirm_library_integrity.py
+#  integrity_check.py
 #
 #  Copyright 2024 Thomas Castleman <batcastle@draugeros.org>
 #
@@ -120,18 +120,24 @@ def scan_files(directory):
             library = dict(library, **recurse[1])
     return [status, library]
 
-status = scan_files(settings["lib_location"])
-if status[0]:
-    __eprint__("Errors found!")
-    exit(1)
-print("No Errors found. Library has good integrity.")
-size = total_size(status[1])
-unit = "bytes"
-units = ["KiB", "MiB", "GiB", "TiB"]
-count = 0
-while (size / 1024) >= 1:
-    size = size / 1024
-    unit = units[count]
-    count += 1
 
-print(f"Size of library in memory: { '{:.1f}'.format(size) } { unit }")
+def _main():
+    """Main Function"""
+    status = scan_files(settings["lib_location"])
+    if status[0]:
+        __eprint__("Errors found!")
+        exit(1)
+    print("No Errors found. Library has good integrity.")
+    size = total_size(status[1])
+    unit = "bytes"
+    units = ["KiB", "MiB", "GiB", "TiB"]
+    count = 0
+    while (size / 1024) >= 1:
+        size = size / 1024
+        unit = units[count]
+        count += 1
+
+    print(f"Size of library in memory: { '{:.1f}'.format(size) } { unit }")
+    
+if __name__ == "__main__":
+    _main()
