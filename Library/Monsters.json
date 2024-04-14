@@ -43,7 +43,7 @@
 				"VULNERABILITY": [],
 				"RESISTANCE": [],
 				"IMMUNITY": [],
-				"COND. IMMUNITY": [],
+				"COND. IMMUNITY": ["CHA"],
 				"LANGUAGES": []
 			}
 		},
@@ -51,7 +51,7 @@
 		"0": {
 				"SPECIES": "Weeping Angel",
 				"SHORT DESCRIPTION": "Living statue which chases adventureures when they are not looking.",
-				"LONG DESCRIPTION": "The Weeping Angel is a humanoid being from another plane, another world, entirely unlike our own. They appear like a female human, typically dressed in simple robes, with short hair and large, angelic wings sprouting from their back. Weeping Angels are typical, organic, fleshy beings when not being observed. However, the moment a sentient being lays eyes on one, the Weeping Angel turns to a stone facsimilie of it's original appearance. In this state, the Weeping Angel is aware of it's surroundings, yet cannot do anything at all about them. Due to this, Weeping Angels usually cover their face with their hands when around other members of their race, in order to protect the others from being permanently frozen by another's gaze. While this means that it is rather trivial to fend one off, simply keep an eye on it at all times, this does not mean that one can assume they are safe in the presence of a Weeping Angel. \n\n Weeping Angels are increadibly fast, aggressive, intelligent, and also posses magical powers. They are capable of moving around 2-3 feet (60 - 100 cm) in the literal blink of an eye. Hence the common advice of 'Don't blink' when dealing with Weeping Angels. Further, if one catches you, it either means certain death, or that you will be sent back in time a random number of years, likely never to be heard from again. \n\n Weeping Angels are pack hunters. While it is not unusual to find one alone, there are almost always more hidden just out of sight. If you find one, you have 3 options:\n\t1) **Run.** Keep your eyes on the angles and run as hard and as fast as you can to get away from them. Throw as much as you can between you and them: boulders, other enemies, steel doors, anything.\n\t2) **Fight.** Keep your eyes on the angels. Either trap them in another's gaze (or their own gaze in a reflection, as observing a Weeping Angel in a mirror, a scrying spell, through glass, or any other indirect method, still freezes the angel), or find a way to destroy them while they are in their stoney form.\n\t3) **Give Up.** Most people do not live to tell the tale of encountering a Weeping Angel. You likely won't either.\n\nIf you aren't giving up, then don't blink. Don't even blink. The angels are too strong and too fast to risk it. Their rock is too hard to be damaged by most swords or war hammers. It will take great cunning to destory a Weeping Angel. But be warned, they are very protective of each other. Kill one and the others are soon to attack with renewed ferocity. Keep an eye on your back, as they are not only fast, but sneaky. And remember: Don't blink. Because the angels are coming.",
+				"LONG DESCRIPTION": "The Weeping Angel is a humanoid being from another plane, another world, entirely unlike our own. They appear like a female human, typically dressed in simple robes, with short hair and large, angelic wings sprouting from their back. Weeping Angels are typical, organic, fleshy beings when not being observed. However, the moment a sentient being lays eyes on one, the Weeping Angel turns to a stone facsimile of it's original appearance. In this state, the Weeping Angel is aware of it's surroundings, yet cannot do anything at all about them. Due to this, Weeping Angels usually cover their face with their hands when around other members of their race, in order to protect the others from being permanently frozen by another's gaze. While this means that it is rather trivial to fend one off, simply keep an eye on it at all times, this does not mean that one can assume they are safe in the presence of a Weeping Angel. \n\n Weeping Angels are incredibly fast, aggressive, intelligent, and also posses magical powers. They are capable of moving around 2-3 feet (60 - 100 cm) in the literal blink of an eye. Hence the common advice of 'Don't blink' when dealing with Weeping Angels. Further, if one catches you, it either means certain death, or that you will be sent back in time a random number of years, likely never to be heard from again. \n\n Weeping Angels are pack hunters. While it is not unusual to find one alone, there are almost always more hidden just out of sight. If you find one, you have 3 options:\n\t1) **Run.** Keep your eyes on the angles and run as hard and as fast as you can to get away from them. Throw as much as you can between you and them: boulders, other enemies, steel doors, anything.\n\t2) **Fight.** Keep your eyes on the angels. Either trap them in another's gaze (or their own gaze in a reflection, as observing a Weeping Angel in a mirror, a scrying spell, through glass, or any other indirect method, still freezes the angel), or find a way to destroy them while they are in their stony form.\n\t3) **Give Up.** Most people do not live to tell the tale of encountering a Weeping Angel. You likely won't either.\n\nIf you aren't giving up, then don't blink. Don't even blink. The angels are fast. Faster than you know. Their rock is too hard to be damaged by most swords or war hammers. It will take great cunning to destroy a Weeping Angel. But be warned, they are very protective of each other. Kill one and the others are soon to attack with renewed ferocity. Keep an eye on your back, as they are not only fast, but sneaky. And remember: Don't blink. Because the angels are coming.",
 				"TYPE": "HUMANOID",
 				"SIZE": "MEDIUM",
 				"CHALLENGE RANGE": 8,
@@ -60,15 +60,37 @@
 				"ARMOR": [1, 20],
 				"HP": [20, 30],
 				"SENSES": [],
-				"SAVE PROFICENCIES": ["STR"],
+				"SAVE PROFICENCIES": ["STR", "DEX"],
 				"SKILLS": ["STH", "ATH", "DEC"],
 				"LEGEND": false,
 				"LAIR": true,
 				"VULNERABILITY": [],
-				"RESISTANCE": [],
-				"IMMUNITY": [],
+				"RESISTANCE": ["PNM", "BNM"],
+				"IMMUNITY": ["LIT", "COL", "FIR", "SNM"],
 				"COND. IMMUNITY": [],
 				"LANGUAGES": []
+			},
+			"1": {
+				"SPECIES": "Basilisk",
+				"SHORT DESCRIPTION": "Born of a chicken's egg hatched beneath a toad, this fearsome serpent is the one of the most deadly creatures in the world.",
+				"LONG DESCRIPTION": "Of the many fearsome beasts and monsters that roam our land, there is none more curious or more deadly than the Basilisk, known also as the King of Serpents. This snake, which may reach gigantic size, and live many hundreds of years, is born from a chicken's egg, hatched beneath a toad. Its methods of killing are most wondrous, for aside from its deadly and venomous fangs, the Basilisk has a murderous stare, and all who are fixed with the beam of its eye shall suffer instant death. Spiders flee before the Basilisk, for it is their mortal enemy, and the Basilisk flees only from the crowing of the rooster, which is fatal to it.",
+				"TYPE": "Beast",
+				"SIZE": "HUGE",
+				"CHALLENGE RANGE": 5,
+				"ALIGNMENT": "NE",
+				"ENVIRON": null,
+				"HP": [15, 28],
+				"ARMOR": [5, 8],
+				"SENSES": ["DV"],
+				"SAVE PROFICENCIES": ["CONST"],
+				"SKILLS": ["STH"],
+				"LEGEND": true,
+				"LAIR": true,
+				"VULNERABILITY": [],
+				"RESISTANCE": ["SNM", "SLA"],
+				"IMMUNITY": ["POI"],
+				"CONDITION IMMUNITY": ["POI"],
+				"LANGUAGES": ["PT"]
 			}
 		},
 	"ETC": {
