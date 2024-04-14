@@ -28,3 +28,13 @@ for example:
 ```
 
 Data files are a little less structured, as different kinds of data need to be stored differently. Just ensure to stick to the standard in the file you are working in.
+
+## Making a Pull Request
+Before you make a pull request. Run `confirm_library_integrity.py` in the root directory of this git repo. You want to see output like this:
+
+```
+No Errors found. Library has good integrity.
+Size of library in memory: 99.7 KiB
+```
+
+If any errors are printed, fix them in the library. If it is not an error with the library, but rather with the script, open an Issue, and reference it in your PR.
