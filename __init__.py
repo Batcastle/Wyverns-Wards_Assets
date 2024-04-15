@@ -23,4 +23,5 @@
 #
 """Explain what this program does here!!!"""
 import ..integrity_check
-from ..settings import Settings
+from ..settings import Internal_Settings
+from ..settings import User_Settings

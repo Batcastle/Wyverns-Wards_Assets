@@ -38,19 +38,8 @@ if sys.version_info[0] == 2:
     exit(2)
 
 
-class Settings():
+class Settings_Abstraction():
     """Settings management data class"""
-    def __init__(self):
-        """Initialization and loading of data"""
-        self.settings_file = "settings.json"
-        if os.path.isfile(self.settings_file):
-            with open(self.settings_file, "r") as file:
-                self.settings = json.load(file)
-        else:
-            raise FileNotFoundError("Could not find settings file (settings.json)")
-        self.settings_copy = copy.deepcopy(self.settings)
-        self.changes_not_applied = False
-    
     def get(self, key):
         """Get data with key"""
         if key in self.settings.keys():
@@ -71,12 +60,20 @@ class Settings():
             self.settings_copy = copy.deepcopy(self.settings)
         self.settings[key] = data
         
-    def apply_changes(self):
-        """Make any changes to settings permanent"""
-        if self.changes_not_applied:
-            with open(self.settings_file, "w+") as file:
-                json.dump(self.settings, file, indent=2)
+    def apply_changes(self, bypass_check=False):
+        """Make any changes to settings permanent
+        
+        """
+        if self.changes_not_applied or bypass_check:
+            try:
+                with open(self.settings_file, "w+") as file:
+                    json.dump(self.settings, file, indent=2)
+            except (PermissionError, IOError) as e:
+                print(f"An unknown error occurred:\n{e}")
+                return False
             self.changes_not_applied = False
+            return True
+        return False
     
     def undo_changes(self):
         """Attempt to undo changes
@@ -99,3 +96,32 @@ class Settings():
             return False
         self.settings = copy.deepcopy(self.settings_copy)
         return True
+        
+class User_Settings(Settings_Abstraction):
+    """User Settings class"""
+    def __init__(self):
+        """Initialization and loading of data"""
+        self.settings_file = "user_settings.json"
+        self.changes_not_applied = False
+        if os.path.isfile(self.settings_file):
+            with open(self.settings_file, "r") as file:
+                self.settings = json.load(file)
+        else:
+            self.settings = {}
+            self.apply_changes(bypass_check=True)
+        self.settings_copy = copy.deepcopy(self.settings)
+        
+
+class Internal_Settings(Settings_Abstraction):
+    """Internal Settings Class"""
+    def __init__(self):
+        """Initialization and loading of data"""
+        self.settings_file = "internal_settings.json"
+        self.changes_not_applied = False
+        if os.path.isfile(self.settings_file):
+            with open(self.settings_file, "r") as file:
+                self.settings = json.load(file)
+        else:
+            self.settings = {}
+            self.apply_changes(bypass_check=True)
+        self.settings_copy = copy.deepcopy(self.settings)

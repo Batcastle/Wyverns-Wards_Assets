@@ -24,14 +24,15 @@
 """Explain what this program does here!!!"""
 from __future__ import print_function
 import sys
-import json
 import os
+import json
 from itertools import chain
 from collections import deque
 try:
     from reprlib import repr
 except ImportError:
     pass
+import settings
 
 
 def __eprint__(*args, **kwargs):
@@ -45,8 +46,7 @@ if sys.version_info[0] == 2:
 
 # get length of argv
 ARGC = len(sys.argv)
-with open("settings.json", "r") as file:
-    settings = json.load(file)
+internal_settings = settings.Internal_Settings()
     
 def total_size(o, handlers={}, verbose=False):
     """ Returns the approximate memory footprint an object and all of its contents.
@@ -123,7 +123,7 @@ def scan_files(directory):
 
 def _main():
     """Main Function"""
-    status = scan_files(settings["lib_location"])
+    status = scan_files(internal_settings.get("lib_location"))
     if status[0]:
         __eprint__("Errors found!")
         exit(1)
